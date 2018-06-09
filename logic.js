@@ -100,31 +100,31 @@
         document.querySelector("#liveleft").innerHTML = liveleft;
 
         if (liveleft===6){
-            document.querySelector(".emojipic").src="pic1.png"; 
+            document.querySelector(".emojipic").src="Pic1.png"; 
         }
 
         if (liveleft===5){
-            document.querySelector(".emojipic").src="pic2.png"; 
+            document.querySelector(".emojipic").src="Pic2.png"; 
         }
 
         if (liveleft===4){
-            document.querySelector(".emojipic").src="pic3.png"; 
+            document.querySelector(".emojipic").src="Pic3.png"; 
         }
 
         if (liveleft===3){
-            document.querySelector(".emojipic").src="pic4.png"; 
+            document.querySelector(".emojipic").src="Pic4.png"; 
         }
 
         if (liveleft===2){
-            document.querySelector(".emojipic").src="pic5.png"; 
+            document.querySelector(".emojipic").src="Pic5.png"; 
         }
 
         if (liveleft===1){
-            document.querySelector(".emojipic").src="pic6.png"; 
+            document.querySelector(".emojipic").src="Pic6.png"; 
         }
 
         if (liveleft===0){
-            document.querySelector(".emojipic").src="pic7.png"; 
+            document.querySelector(".emojipic").src="Pic7.png"; 
             liveleft=7;
         }
 
