@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gleb's Hangman Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+
+</head>
+
+
+<body>
+<center>
+
+        <div class="border" id="gameboard">
+            <div class="border" id="gameheader">
+                <h1>Gleb's Animal Guessing Game!</h1>
+                <h3>You have 6 attempts to guess the mystery animal. Pick one letter at a time to see if you can
+                    unveil the magestic beast that lurks within.</h3>
+                
+            </div>
+
+            <div class="none" id="leftside">
+                <div class="border" id="emoji">
+                    <img class="emojipic" src="Pic1.png">
+
+                </div>
+                
+
+                <div id="letterposition">
+                    <div class="letteroutline">
+                        <div class="letterbox" id="block1">  </div>
+                    </div>
+
+                    <div class="letteroutline">
+                        <div class="letterbox" id="block2">  </div>
+                    </div>
+
+                    <div class="letteroutline">
+                        <div class="letterbox" id="block3"> </div>
+                    </div>  
+
+                    <div class="letteroutline">
+                        <div class="letterbox" id="block4">  </div>
+                    </div> 
+
+                    <div class="letteroutline">
+                        <div class="letterbox" id="block5">  </div>
+                    </div> 
+                </div>
+
+            </div>  
+
+
+
+        <div class="none" id="gamescore"> 
+
+
+            <div class="border" id="scoreboxlarge">Used Letters: <br>
+                    <div id="usedletters">           </div>
+            </div>
+
+            <div class="scorebox border">Guesses Left: 
+                    <div id="liveleft">          </div>
+            </div>
+
+            <div class="scorebox border"> Numbers of Wins: 
+                    <div id="wincount">         </div>
+            </div>
+
+         </div>
+                
+              
+
+
+
+<!-- 
+    
+<button id="noclick" onclick="checkLetter()" value="A"> A </button>
+<button id="noclick1" onclick="checkLetter()"> B </button>
+<button id="noclick" onclick="checkLetter()"> C </button>
+<button id="noclick" onclick="checkLetter()"> D </button>
+<button id="noclick" onclick="checkLetter()"> E </button>
+<button id="noclick" onclick="checkLetter()"> F </button>
+<button onclick="checkLetter"> G </button>
+<button onclick="checkLetter"> H </button>
+
+
+<br>
+
+<button onclick="checkLetter"> I </button>
+<button onclick="checkLetter"> J </button>
+<button onclick="checkLetter"> K </button>
+<button onclick="checkLetter"> L </button>
+<button onclick="checkLetter"> M </button>
+<button onclick="checkLetter"> N </button>
+<button onclick="checkLetter"> O </button>
+<button onclick="checkLetter"> P </button>
+<button onclick="checkLetter"> Q </button>
+<button onclick="checkLetter"> R </button>
+
+<br>
+
+
+<button onclick="checkLetter"> S </button>
+<button onclick="checkLetter"> T </button>
+<button onclick="checkLetter"> U </button>
+<button onclick="checkLetter"> V </button>
+<button onclick="checkLetter"> W </button>
+<button onclick="checkLetter"> X </button>
+<button onclick="checkLetter"> Y </button>
+<button onclick="checkLetter"> Z </button>
+</div>
+
+</div>  -->
+
+<div class="none" id="keyboard">    
+
+</center>
+
+</div>
+<script src="logic.js"></script>
+
+</body>
+</html>
