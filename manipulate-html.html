@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div id="letters">
+		
+	</div>
+
+<script type="text/javascript">
+	function addTextToPage(event){
+		var key = event.key;
+
+		var letters = document.querySelector('#letters');
+
+		letters.innerText = letters.innerText + key;
+	}
+
+	document.onkeyup = addTextToPage;
+</script>
+</body>
+</html>

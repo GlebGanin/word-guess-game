@@ -1,0 +1,217 @@
+
+/* MAIN BODY ELEMENTS: */
+
+        body  {
+            background-image: url("background.jpg");
+        }
+
+        h1 {
+            color:rgb(26, 84, 138);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h3 {
+            color:rgb(39, 118, 163);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+        .border  {
+            border-width:2px;
+            border-style:solid;
+            border-color:black;
+
+        }
+
+
+
+/* SCOREBOARD FONT (RIGHT SIDE) */
+
+        #liveleft  {
+            margin-top:5px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+
+        #usedletters  {
+            margin-top:10px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            
+        }
+
+        #wincount  {
+            margin-top:5px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+
+        }
+
+
+
+/* KEYBOARD BUTTONS: */
+
+        button {
+            height: 27px;
+            width: 27px;
+            border-color:rgba(29, 119, 85, 0.637);
+            background-color: rgb(107, 155, 194); /* Green */
+            color: rgb(26, 82, 49);
+            text-align: center;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left:5px;
+            margin-right:5px;
+            margin-top:2px;
+            margin-bottom:2px;
+        }
+
+        #keyboard  {
+            margin-top:auto;
+            clear: both;
+        }
+
+
+
+/* LETTER BOXES FOR MAIN WORD */
+    
+        .letterbox  {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height:30px;
+            width:30px;
+            border-style:solid;
+            border-color:grey;
+            float:left;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 30px;
+        }
+
+        #block1  {
+            visibility: hidden;
+        }
+
+        #block2 {
+            visibility: hidden;
+        }
+
+        #block3  {
+            visibility: hidden;
+        }
+
+        #block4  {
+            visibility: hidden;
+        }
+
+        #block5  {
+            visibility: hidden;
+        }
+
+        .letteroutline  {
+            float:left;
+            border-width:2px;
+            border-radius: 2px;
+            border-style:solid;
+            border-color:black;
+            margin: 8px 8px; 
+        }   
+
+        #letterposition  {
+            margin-left:60px;
+        }
+
+
+
+/* EMOJI LOCATION */
+
+        #emoji  {
+            height: 235px;
+        }
+
+        .emojipic  {
+            margin-top:10px;
+            height:200px;
+            width:200px;
+        }
+
+
+        
+
+
+/* MAIN GAME DIVS (CONTAINERS) */
+
+        #gameboard {
+            background-color: rgba(255, 255, 255, 0.678);
+            height: 600px;
+            width:600px;
+            border-radius: 10px;
+            border-width: 5px;
+            /* border-color: rgba(18, 140, 177, 0.945) */
+        
+        }
+
+        #gameheader  {
+            padding:5px 10px 20px 10px;
+            height:150px;
+
+        }
+
+        #leftside  {
+            height:300px;
+            width: 412px;
+            float:left;
+        }
+
+        #gamescore  {
+            width:188px;
+            height:230px;
+            float:right;
+        }
+
+        .scorebox  {
+            padding-top:10px;
+            height:53px;
+            width:180px;
+        }
+
+        #scoreboxlarge  {
+            padding-top:10px;
+            height:90px;
+            width:180px;
+        }
+
+
+
+        /* HIDDEN LETTER BLOCKS:  */
+
+        #Bblock  {
+            visibility: hidden;
+        }
+
+        #Eblock {
+            visibility: hidden;
+        }
+
+        #Eblock2  {
+            visibility: hidden;
+        }
+
+        #Ablock  {
+            visibility: hidden;
+        }
+
+        #Vblock  {
+            visibility: hidden;
+        }
+
+        #Rblock  {
+            visibility: hidden;
+        }
+
+
+
